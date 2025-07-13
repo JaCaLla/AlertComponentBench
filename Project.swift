@@ -16,7 +16,8 @@ let project = Project(
                     ],
                 ]
             ),
-            sources: ["AlertComponentBench/Sources/**"],
+            sources: ["AlertComponentBench/Sources/**",
+                      "../AlertComponent/Sources/**"],
             resources: ["AlertComponentBench/Resources/**"],
             dependencies: []
         ),
